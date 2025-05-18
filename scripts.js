@@ -117,26 +117,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // Fechar modal ao clicar no X
-  modalClose.addEventListener('click', () => {
-    modal.classList.remove('show');
-    modal.setAttribute('aria-hidden', 'true');
-    modalImg.src = '';
-    
-    // Retoma auto-slide ao fechar modal
-    autoSlide = setInterval(() => {
-      currentIndex = (currentIndex + 1) % slideCount;
-      updateSlider();
-    }, 3000);
-  });
-
-  // Fechar modal ao clicar fora da imagem
-  modal.addEventListener('click', (e) => {
-    if (e.target === modal) {
-      modalClose.click();
-    }
-  });
-
-  // Inicia o slider na posição correta
-  updateSlider();
-});
+})
