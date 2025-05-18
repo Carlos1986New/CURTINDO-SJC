@@ -53,6 +53,8 @@ section {
   border-radius: 8px;
   box-shadow: var(--shadow);
   max-width: 100%;
+  width: 100%;
+  overflow: hidden; /* ESSENCIAL pra não estourar no mobile */
 }
 
 h2 {
@@ -156,9 +158,12 @@ footer a:hover {
 }
 .section-img {
   width: 100%;
+  height: auto;
   max-height: 200px;
   object-fit: cover;
   border-radius: 8px;
   box-shadow: var(--shadow);
   margin-bottom: 1rem;
+  display: block;
 }
+
