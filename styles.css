@@ -98,7 +98,7 @@ button:disabled {
 footer {
   background-color: var(--dark-color);
   color: white;
-  padding: 1rem;
+  padding: 0.5rem;
   position: fixed;
   bottom: 0;
   width: 100%;
