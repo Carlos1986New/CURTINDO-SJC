@@ -1,7 +1,8 @@
 {
   "name": "Curtindo SJC",
   "short_name": "SJC",
-  "start_url": "https://carlos1986new.github.io/CURTINDO-SJC/",
+  "start_url": "/CURTINDO-SJC/",
+  "scope": "/CURTINDO-SJC/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#0044cc",
